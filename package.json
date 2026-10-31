@@ -1,6 +1,6 @@
 {
   "name": "akhoa-lua-protector",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "main": "server.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "node": ">=18"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.850.0",
     "express": "^4.21.2"
   }
 }
